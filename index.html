@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cornos Group - Site Oficial</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding-top: 50px;
+        }
+        .server-address {
+            background-color: #28a745;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1.5em;
+            margin-bottom: 30px;
+            display: inline-block;
+            font-weight: bold;
+        }
+        .lead {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* Proporção 16:9 */
+            overflow: hidden;
+            margin-bottom: 30px;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .mod-dependency {
+            font-size: 1.2em;
+            color: #007bff;
+            text-decoration: none;
+            margin-bottom: 10px; /* Espaçamento entre os links */
+            display: block; /* Coloca os links um abaixo do outro */
+        }
+        .mod-dependency:hover {
+            text-decoration: underline;
+        }
+        .site-title {
+            font-size: 3em; /* Aumentei o tamanho do título */
+            margin-bottom: 30px; /* Maior espaçamento abaixo do título */
+            color: #333;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adicionei sombra ao texto */
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+        <!-- Título do site -->
+        <h1 class="site-title">Cornos Group - Site Oficial</h1>
+        <p class="lead">CornosCraft - 1.20.4</p>
+        <p class="lead"><span class="server-address">mc.cornosgroup.com.br</span></p>
+        <hr>
+        <p class="lead">Nosso servidor possui suporte ao voice chat e ChatGPT.</p>
+        <div class="video-container">
+            <!-- Vídeo do YouTube -->
+            <iframe src="https://www.youtube.com/embed/tHJRkPW2ieM" allowfullscreen></iframe>
+        </div>
+        <p class="lead">Assista ao vídeo acima para configurar o Minecraft.</p>
+        <hr>
+        <p class="lead">Links</p>
+        <!-- Links para os mods -->
+        <a href="https://files.minecraftforge.net/net/minecraftforge/forge/" class="mod-dependency">Forge</a>
+        <a href="https://modrinth.com/plugin/simple-voice-chat/versions?l=forge" class="mod-dependency">Simple Voice Chat Mod</a>
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
